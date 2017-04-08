@@ -1,21 +1,47 @@
-6 - viewer+server+data-mng+derivatives/push-to-prod.sh
-6 - viewer+server+data-mng+derivatives/node_modules
-6 - viewer+server+data-mng+derivatives/dist
-6 - viewer+server+data-mng+derivatives/TMP
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
 
-5 - viewer+server+oss+derivatives/push-to-prod.sh
-5 - viewer+server+oss+derivatives/node_modules
-5 - viewer+server+oss+derivatives/dist
-5 - viewer+server+oss+derivatives/TMP
+# Folder config file
+Desktop.ini
 
-4 - viewer+server+oss/node_modules
-4 - viewer+server+oss/TMP
-4 - viewer+server+oss/dist
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
 
-3 - viewer+server/node_modules
-3 - viewer+server/dist
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
 
-1 - viewer-offline/viewer-lib
+# Windows shortcuts
+*.lnk
 
-.idea
+# =========================
+# Operating System Files
+# =========================
 
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
